@@ -6,4 +6,117 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
-
+.containergeneral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.containerHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.logoHeader {
+  height: 19px;
+  padding-left: 25px;
+}
+.buttonHeader {
+  height: 2rem;
+  width: 6rem;
+  margin-right: 25px;
+  background-color: white;
+  border-color: hsl(322, 100%, 66%);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 1rem;
+  color: hsl(322, 100%, 66%);
+  cursor: pointer;
+}
+.containerH1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: hsl(192, 100%, 9%);
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 20% 5% 10% 5%;
+}
+.texH1 {
+  font-size: 15px;
+  color: hsl(192, 100%, 9%);
+  padding: 0 8%;
+  text-align: center;
+}
+.buttonH1 {
+  height: 2.8rem;
+  width: 14rem;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 2rem;
+  border-style: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  box-shadow: 1px 5px 11px -5px #575559;
+  margin: 60px 0 120px 0;
+  cursor: pointer;
+}
+.buttonH1:hover {
+  opacity: 0.7;
+}
+.screen-mockups {
+  height: 210px;
+  width: 330px;
+}
+.iconCommunities,
+.iconMessages {
+  height: 25px;
+  width: 25px;
+}
+.containerNumbers {
+  margin-top: 100px;
+}
+.numbers {
+  color: hsl(192, 100%, 9%);
+  font-size: 60px;
+  font-weight: 700;
+}
+.textNumbers {
+  font-weight: 400;
+  color: rgb(128, 128, 128);
+  font-size: 15px;
+  text-align: center;
+}
+.containerIllus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.growTogeder,
+.flowingConver,
+.yourUsers {
+  height: 250px;
+  width: 300px;
+  margin-top: 200px;
+}
+h2 {
+  text-align: center;
+  font-weight: 900;
+  margin: 60px 0 20px 0;
+}
+.textH2 {
+  font-size: 15px;
+  color: hsl(192, 100%, 9%);
+  padding: 0 7.5%;
+  text-align: center;
+}
