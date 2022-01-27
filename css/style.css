@@ -74,7 +74,7 @@ h1 {
   opacity: 0.7;
 }
 .screen-mockups {
-  height: 210px;
+  height: 230px;
   width: 330px;
 }
 .iconCommunities,
@@ -101,13 +101,14 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: hsl(207, 100%, 98%);
 }
 .growTogeder,
 .flowingConver,
 .yourUsers {
+  margin-top: 80px;
   height: 250px;
   width: 300px;
-  margin-top: 200px;
 }
 h2 {
   text-align: center;
@@ -149,15 +150,26 @@ h2 {
 .buttonH2readyBuild:hover {
   opacity: 0.7;
 }
+.bgFooerTopMobile{
+  height: 50px;
+  background-image: url('../img/bg-footer-top-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 footer {
   padding: 35px;
   background-color: hsl(192, 100%, 9%);
   color: white;
   font-size: 15px;
 }
-h3,
+h3{
+  font-size: 23px;
+  padding: 40px 0 20px 0;
+  
+}
 .textH3footer {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  line-height: 25px;
 }
 input {
   width: 330px;
@@ -192,6 +204,7 @@ input {
 }
 .textLogoFooter {
   margin: 10px 0 40px 0;
+  line-height: 25px;
 }
 .iconPhone,
 .iconEmail {
@@ -200,4 +213,12 @@ input {
 .fab {
   font-size: 25px;
   padding: 20px 10px 30px 0;
+}
+.BgTopMobile{
+  height: 110px;
+  background-image: url('../img/bg-section-top-mobile-1.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
