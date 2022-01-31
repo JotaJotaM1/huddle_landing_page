@@ -126,7 +126,13 @@ h2 {
   margin: 60px 0 20px 0;
   font-family: "Poppins", sans-serif;
 }
-.textH2 {
+.textH2{
+  font-size: 15px;
+  color: hsl(192, 100%, 9%);
+  padding: 0 7.5% 50px;
+  text-align: center;
+}
+.textH2white {
   font-size: 15px;
   color: hsl(192, 100%, 9%);
   padding: 0 7.5% 50px;
@@ -251,4 +257,89 @@ input {
   background-image: url("../img/bg-section-bottom-mobile-2.svg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media (min-width: 1024px) {
+  header {
+    margin: 0 5%;
+  }
+  .logoHeader {
+    height: 25px;
+    padding-left: 0;
+  }
+  h1 {
+    padding: 10% 5% 2% 5%;
+    color: hsl(192, 100%, 9%);
+    font-size: 35px;
+  }
+  .texH1 {
+    padding: 0 27%;
+  }
+  .buttonH1 {
+    height: 3.5rem;
+    width: 18rem;
+    margin: 40px 0 90px 0;
+  }
+  .screen-mockups {
+    height: 500px;
+    width: 770px;
+  }
+  .containerGeneralNumbers {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .iconCommunities,
+  .iconMessages {
+    height: 30px;
+    width: 30px;
+  }
+  .numbers {
+    font-size: 70px;
+  }
+  .containerArticle{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 10%;
+  }
+  .articlewhite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 10%;
+  }
+  .GrowTogether,
+  .ContainerFLowingConver,
+  .containerYourUsers,
+  .containerIllus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .containerIllusX{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h2,
+  .textH2 {
+    padding: 0 30% 0 0 ;
+    text-align: left;
+  }
+  .textH2white{
+    text-align: left;
+    padding: 0;
+  }
+  .growTogeder,
+  .yourUsers,
+  .flowingConver {
+    margin: 0;
+    height: 350px;
+    width: 400px;
+  }
+  .ContainerFLowingConver{
+    margin-left: 20%;
+  }
+.footer{
+  display: inline;
+}
 }
