@@ -126,7 +126,7 @@ h2 {
   margin: 60px 0 20px 0;
   font-family: "Poppins", sans-serif;
 }
-.textH2{
+.textH2 {
   font-size: 15px;
   color: hsl(192, 100%, 9%);
   padding: 0 7.5% 50px;
@@ -296,12 +296,12 @@ input {
   .numbers {
     font-size: 70px;
   }
-  .containerArticle{
+  .containerArticle {
     display: flex;
     flex-direction: row-reverse;
     padding: 0 10%;
   }
-  .articlewhite{
+  .articlewhite {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -310,22 +310,22 @@ input {
   .GrowTogether,
   .ContainerFLowingConver,
   .containerYourUsers,
-  .containerIllus{
+  .containerIllus {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .containerIllusX{
+  .containerIllusX {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   h2,
   .textH2 {
-    padding: 0 30% 0 0 ;
+    padding: 0 30% 0 0;
     text-align: left;
   }
-  .textH2white{
+  .textH2white {
     text-align: left;
     padding: 0;
   }
@@ -336,10 +336,18 @@ input {
     height: 350px;
     width: 400px;
   }
-  .ContainerFLowingConver{
+  .ContainerFLowingConver {
     margin-left: 20%;
   }
-.footer{
-  display: inline;
-}
+  .BgTopMobile {
+    background-image: url("../img/bg-section-top-desktop-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .BgBottomMobile {
+    height: 80px;
+    background-image: url("../img/bg-section-bottom-desktop-1.svg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+  }
 }
