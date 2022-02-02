@@ -371,7 +371,7 @@ input {
     margin-bottom: 80px;
   }
   .bgFooerTopMobile {
-    height: 50px;
+    height: 200px;
     background-image: url("../img/bg-footer-top-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
