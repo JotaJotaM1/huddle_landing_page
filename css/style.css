@@ -406,4 +406,7 @@ input {
   .textLogoFooter{
     padding-right: 200px;
   }
+  .fab{
+    font-size: 40px;
+  }
 }
