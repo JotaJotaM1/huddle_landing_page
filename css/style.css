@@ -197,7 +197,7 @@ input {
   justify-content: flex-end;
 }
 .buttonSubscribe {
-  height: 2.8rem;
+  height: 3.1rem;
   width: 10rem;
   background-color: hsl(322, 100%, 66%);
   border-radius: 0.3rem;
@@ -209,8 +209,7 @@ input {
   margin-top: 20px;
 }
 .logoFooter {
-  padding: 100px 0 10px 0;
-  height: 30px;
+  height: 40px; 
 }
 .containerIconFooter {
   display: flex;
@@ -375,5 +374,36 @@ input {
     background-image: url("../img/bg-footer-top-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .containerfooter{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .containerInput{
+    display: flex;
+  }
+  .buttonSubscribe{
+    margin: 0;
+  }
+  h3{
+    padding: 0;
+  }
+  .containerH3{
+    width: 500px;
+    height: 300px;
+  }
+  .textH3footer{
+    padding-bottom: 30px;
+    line-height: 25px;
+    padding-right: 140px;
+  }
+  input{
+    margin-right: 30px;
+  }
+  footer{
+    padding: 80px 150px;
+  }
+  .textLogoFooter{
+    padding-right: 200px;
   }
 }
