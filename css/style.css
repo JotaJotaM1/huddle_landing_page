@@ -195,6 +195,7 @@ input {
 .containerSubscribe {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 40px;
 }
 .buttonSubscribe {
   height: 3.1rem;
@@ -209,7 +210,7 @@ input {
   margin-top: 20px;
 }
 .logoFooter {
-  height: 40px; 
+  height: 40px;
 }
 .containerIconFooter {
   display: flex;
@@ -375,38 +376,38 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .containerfooter{
+  .containerfooter {
     display: flex;
     flex-direction: row-reverse;
   }
-  .containerInput{
+  .containerInput {
     display: flex;
   }
-  .buttonSubscribe{
+  .buttonSubscribe {
     margin: 0;
   }
-  h3{
+  h3 {
     padding: 0;
   }
-  .containerH3{
+  .containerH3 {
     width: 500px;
     height: 300px;
   }
-  .textH3footer{
+  .textH3footer {
     padding-bottom: 30px;
     line-height: 25px;
     padding-right: 140px;
   }
-  input{
+  input {
     margin-right: 30px;
   }
-  footer{
+  footer {
     padding: 80px 150px;
   }
-  .textLogoFooter{
+  .textLogoFooter {
     padding-right: 200px;
   }
-  .fab{
+  .fab {
     font-size: 40px;
   }
 }
